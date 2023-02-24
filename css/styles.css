@@ -174,6 +174,14 @@ footer {
     align-items: center;
 }
 
+.header-icon-items a {
+    margin-right: 10px;
+}
+
+.header-icon:hover {
+    stroke: #2196F3;
+}
+
 .active-button {
     padding: 6px 22px;
 }
@@ -270,11 +278,20 @@ footer {
 
 /* Studio Style*/
 .efective-section {
-    background: #2F303A;
     height: 600px;
     display: flex;
     justify-content: center;
+}
 
+.background-photo-block {
+    width: 1600px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.1)),
+        linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.1)),
+        url(/images/underApic.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
 
 .efective-container {
@@ -464,6 +481,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.costumer-logo li svg:hover {
+    stroke: #2196F3;
 }
 
 .footer-vectorial {
