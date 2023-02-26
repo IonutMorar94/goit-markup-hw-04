@@ -275,10 +275,9 @@ footer {
     padding-left: 94px;
 }
 
-.incercare {
+.left-side-address {
     display: flex;
     flex-direction: column;
-
 }
 
 /* Studio Style*/
@@ -288,10 +287,8 @@ footer {
     justify-content: center;
 }
 
-.background-photo-block {
-    width: 1600px;
+.efective-section {
     background-size: cover;
-
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.1)),
         linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.1)),
         url(..//images/underapic.jpeg);
@@ -462,14 +459,19 @@ footer {
 }
 
 .team-vectorials li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
     fill: #AFB1B8;
-    ;
+
+
 }
 
 .team-vectorials li a:hover {
     fill: white;
-    width: 44px;
-    height: 44px;
     background: #2196F3;
     border-radius: 50%;
     display: flex;
@@ -547,8 +549,6 @@ footer {
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-
 
 .footer-vectoliar-pic li a {
     width: 44px;
